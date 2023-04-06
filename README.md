@@ -51,6 +51,7 @@ personal-site
 * [ ] Overall matcha based colorscheme
 * [ ] Add wakatime project badges and repo badges to website for additional clout, google how to style accordingly.
 * [ ] Publish as official website I link on my Github `gongahkia.md` rendered using https://pages.github.com/.
+* [ ] Unprivate this repo/ publish the website as mentioned above once everything is completed.
 
 ## Notes for self:
 
