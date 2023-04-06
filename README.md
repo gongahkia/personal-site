@@ -45,11 +45,13 @@ personal-site
 * [ ] Properly style the general look of the site (fonts, colorscheme, overall code theme in `main.css`.
 * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
 * [ ] Handle movement of page to page, better signpost which page I'm currently on once clicked.
-* [ ] Add content to each web page, style accordingly.
+* [ ] Add content to each web page, style and add logic accordingly *(see above in **General structure** for what else is to be added)*
 * [ ] Implement respective logic for each web page in their respective TS *(compiled to JS)* files.
 * [ ] Implement additional styling preferences for each web page in their respective CSS files *(create them if neccesary)*.
 * [ ] Overall matcha based colorscheme
 * [ ] Add wakatime project badges and repo badges to website for additional clout, google how to style accordingly.
+* [ ] Add additional responsiveness for mobile devices/ design an entirely different website experience for mobile devices, unique controls and feel
+* [ ] Offer Github and Wakatime integrations giving my stats
 * [ ] Publish as official website I link on my Github `gongahkia.md` rendered using https://pages.github.com/.
 * [ ] Unprivate this repo/ publish the website as mentioned above once everything is completed.
 
