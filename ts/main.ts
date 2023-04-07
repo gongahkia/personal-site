@@ -1,1 +1,17 @@
-console.log("ah shit");
+let currentPagefrmMain = (window.location.pathname).split("/").pop();
+console.log(currentPagefrmMain);
+
+switch (currentPagefrmMain) {
+    case "main.html": {
+        document.getElementById("mainLink")!.classList.add("currentFile");
+        break;
+    }
+    case "about.html": {
+        document.getElementById("aboutLink")!.classList.add("currentFile");
+        break;
+    }
+    case "contact.html": {
+        document.getElementById("contactLink")!.classList.add("currentFile");
+        break;
+    }
+}

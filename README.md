@@ -38,13 +38,16 @@ personal-site
 └── tsconfig.json
 ```
 
+## Done:
+
+* [x] Handle movement of page to page, better signpost which page I'm currently on once clicked.
+
 ## To do:
 
 * [ ] General theming of site to be very **code-like**, with references to code throughout and maybe even an interactive command line.
 * [ ] CSS flexboxes
 * [ ] Properly style the general look of the site (fonts, colorscheme, overall code theme in `main.css`.
 * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
-* [ ] Handle movement of page to page, better signpost which page I'm currently on once clicked.
 * [ ] Add content to each web page, style and add logic accordingly *(see above in **General structure** for what else is to be added)*
 * [ ] Implement respective logic for each web page in their respective TS *(compiled to JS)* files.
 * [ ] Implement additional styling preferences for each web page in their respective CSS files *(create them if neccesary)*.

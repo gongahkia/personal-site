@@ -23,3 +23,82 @@
 body {
     font-family: "JetBrainsMono", sans-serif;
 }
+
+/* CSS flexbox */
+.container {
+    display:flex;
+    justify-content:center;
+    height:100px;
+}
+
+.item-mainLink, .item-aboutLink, .item-contactLink {
+    margin-top:auto;
+    margin-left:250px;
+    margin-right:250px;
+    font-size:2rem;
+
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease-in-out;
+    transition-delay:0s;
+
+    animation-name:linksOnStartup;
+    animation-timing-function:ease;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.item-mainLink {
+    animation-duration:1.5s;
+}
+
+.item-aboutLink {
+    animation-duration:1.8s;
+}
+
+.item-contactLink {
+    animation-duration:2.1s;
+}
+
+/* General link styling */
+a {
+    color:black;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a.visited {
+    text-decoration:none;
+}
+
+a.active {
+    text-decoration:none;
+}
+
+/* Animations && Transitions */
+.item-mainLink:hover, .item-aboutLink:hover, .item-contactLink:hover {
+    transform:translateY(-8px);
+    text-decoration:underline;
+}
+
+@keyframes linksOnStartup {
+    from {
+        transform: translateY(-80px);
+    } 
+    to {
+        transform: translateY(0px);
+    }
+}
+
+/* Conditional formatting */
+.currentFile {
+    border:solid;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+}
