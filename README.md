@@ -41,6 +41,8 @@ personal-site
 ## Done:
 
 * [x] Handle movement of page to page, better signpost which page I'm currently on once clicked.
+* [x] Add animations and transitions to the text options on `about.html` page
+
 
 ## To do:
 
@@ -48,7 +50,6 @@ personal-site
 * [ ] CSS flexboxes
 * [ ] Properly style the general look of the site (fonts, colorscheme, overall code theme in `main.css`.
 * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
-* [ ] Add animations and transitions to the text options on `about.html` page
 * [ ] Add content to each web page, style and add logic accordingly *(see above in **General structure** for what else is to be added)*
 * [ ] Implement respective logic for each web page in their respective TS *(compiled to JS)* files.
 * [ ] Implement additional styling preferences for each web page in their respective CSS files *(create them if neccesary)*.
