@@ -48,15 +48,17 @@ personal-site
 * [ ] About page:  
     * [ ] Add API that calls and automatically **updates** latest wordpress articles and github projects on the page
     * [ ] Parallex effect on background when scrolling  
-    * [ ] Have aforementioned projects and articles slide and animate in only when mouse scrolls down
+    * [ ] Have aforementioned projects and articles slide and animate in only when mouse scrolls down based on https://youtu.be/T33NN_pPeNI
     * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
 
 * [ ] Contact-me page:  
     * [ ] Add actual content referenced from **General structure** above
     * [ ] Allow for emailing and telegram and other contact options to pop up in current tab
     * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
+    * [ ] Add transparent background PNG of me that Bethel drew, add eyeballs that track the mouse based on https://youtu.be/TGe3pS5LqEw
 
 * [ ] Additional stuff:  
+    * [ ] Add Light/Dark mode option that can be toggled based on https://youtu.be/rXuHGLzSmSE
     * [ ] Overall matcha based colorscheme
     * [ ] Unprivate this repo/ publish the website as mentioned above once everything is completed.
     * [ ] Publish as official website I link on my Github `gongahkia.md` rendered using https://pages.github.com/.
