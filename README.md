@@ -10,7 +10,6 @@ Site split into three pages:
 * About
     * Linkedin, Wordpress, Github, Letterboxd accounts
     * Link to Github account, past projects and repos that automatically update.
-    * Link to Wordpress articles and latest articles, link Wordpress API to have live update of these articles.  
 
 * Reach me 
     * Linkedin, Wordpress, Github, Letterboxd, email, other socials.
@@ -50,9 +49,6 @@ personal-site
         * [ ] Complete Github API code to sort and choose 4 repos by most recent updated date
         * [ ] Render most recently updated github repos dynamically by referencing this article (https://stackoverflow.com/questions/12410895/changing-html-data-before-page-rendering), using Github API code in `for-testing/githubAPI.ts`
         * [ ] DIY style a new flexbox div in the about page, to include relevant values (included in the Github repo display [Repo name, Repo desc, Repo language and associated emoji, embedded URL behind each clickable repo box]) => (maybe use dynamic cards display for this??) for latest 4 repos updated 
-    * [ ] Wordpress API
-        * [ ] Complete Wordpress API code to sort and choose 4 articles by most recent updated date
-        * [ ] Add API that calls and automatically **updates** latest wordpress articles and github projects on the page
     * [ ] General styling
         * [ ] Parallex effect on background when scrolling  
         * [ ] Have aforementioned projects and articles slide and animate in only when mouse scrolls down based on https://youtu.be/T33NN_pPeNI
