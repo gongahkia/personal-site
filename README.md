@@ -66,7 +66,8 @@ personal-site
     * [ ] Unprivate this repo/ publish the website as mentioned above once everything is completed.
     * [ ] Publish as official website I link on my Github `gongahkia.md` rendered using https://pages.github.com/.
     * [ ] Offer Github and Wakatime integrations giving my stats
-    * [ ] Add repo badges to website for about, google how to style accordingly.
+    * [ ] Add repo badges to website for about, google how to style accordingly
+    * [ ] Download all image resources from their respective links (required for `about.html` and `contact.html` pages) to a new file directory called `assets/` and change file path of relevant images
 
 * [ ] ***Mobile port***:  
     * [ ] Add additional responsiveness for mobile devices in sizing 
