@@ -47,8 +47,11 @@ personal-site
 
 * [ ] ***About page***:  
     * [ ] Github API
-        * [ ] Render most recently updated github repos dynamically by referencing this article (https://stackoverflow.com/questions/12410895/changing-html-data-before-page-rendering), calling github API test code in telegram chat, and style a new flexbox div in the about page, to include relevant values (included in the Github repo display [Repo name, Repo desc, Repo language and associated emoji, embedded URL behind each clickable repo box]) => maybe use dynamic cards display for this?? for latest 4 repos updated 
+        * [ ] Complete Github API code to sort and choose 4 repos by most recent updated date
+        * [ ] Render most recently updated github repos dynamically by referencing this article (https://stackoverflow.com/questions/12410895/changing-html-data-before-page-rendering), using Github API code in `for-testing/githubAPI.ts`
+        * [ ] DIY style a new flexbox div in the about page, to include relevant values (included in the Github repo display [Repo name, Repo desc, Repo language and associated emoji, embedded URL behind each clickable repo box]) => (maybe use dynamic cards display for this??) for latest 4 repos updated 
     * [ ] Wordpress API
+        * [ ] Complete Wordpress API code to sort and choose 4 articles by most recent updated date
         * [ ] Add API that calls and automatically **updates** latest wordpress articles and github projects on the page
     * [ ] General styling
         * [ ] Parallex effect on background when scrolling  
