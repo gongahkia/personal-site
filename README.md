@@ -42,22 +42,26 @@ personal-site
 
 ## To do:
 
-* [ ] Main page:
+* [ ] ***Main page***:
     * [ ] Add spotify API that updats based on what song I'm currently listening to.
 
-* [ ] About page:  
-    * [ ] Add API that calls and automatically **updates** latest wordpress articles and github projects on the page
-    * [ ] Parallex effect on background when scrolling  
-    * [ ] Have aforementioned projects and articles slide and animate in only when mouse scrolls down based on https://youtu.be/T33NN_pPeNI
-    * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
+* [ ] ***About page***:  
+    * [ ] Github API
+        * [ ] Render most recently updated github repos dynamically by referencing this article (https://stackoverflow.com/questions/12410895/changing-html-data-before-page-rendering), calling github API test code in telegram chat, and style a new flexbox div in the about page, to include relevant values (included in the Github repo display [Repo name, Repo desc, Repo language and associated emoji, embedded URL behind each clickable repo box]) => maybe use dynamic cards display for this?? for latest 4 repos updated 
+    * [ ] Wordpress API
+        * [ ] Add API that calls and automatically **updates** latest wordpress articles and github projects on the page
+    * [ ] General styling
+        * [ ] Parallex effect on background when scrolling  
+        * [ ] Have aforementioned projects and articles slide and animate in only when mouse scrolls down based on https://youtu.be/T33NN_pPeNI
+        * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
 
-* [ ] Contact-me page:  
+* [ ] ***Contact-me page***:  
     * [ ] Add actual content referenced from **General structure** above
     * [ ] Allow for emailing and telegram and other contact options to pop up in current tab
     * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
     * [ ] Add transparent background PNG of me that Bethel drew, add eyeballs that track the mouse based on https://youtu.be/TGe3pS5LqEw
 
-* [ ] Additional stuff:  
+* [ ] ***Additional stuff***:  
     * [ ] Add Light/Dark mode option that can be toggled based on https://youtu.be/rXuHGLzSmSE
     * [ ] Overall matcha based colorscheme
     * [ ] Unprivate this repo/ publish the website as mentioned above once everything is completed.
@@ -65,7 +69,7 @@ personal-site
     * [ ] Offer Github and Wakatime integrations giving my stats
     * [ ] Add repo badges to website for about, google how to style accordingly.
 
-* [ ] Mobile port:  
+* [ ] ***Mobile port***:  
     * [ ] Add additional responsiveness for mobile devices in sizing 
     * [ ] Design an entirely different website experience for mobile devices, unique controls and feel
 
