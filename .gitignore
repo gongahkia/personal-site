@@ -2,3 +2,5 @@ node_modules
 ts/main.js
 ts/about.js
 ts/contact.js
+for-testing/githubAPI.js
+
