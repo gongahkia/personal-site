@@ -20,15 +20,18 @@ Site split into three pages:
 personal-site
 │
 ├── html
-│   ├── main.html
 │   ├── about.html
-│   └── contact.html
+│   ├── contact.html
+│   └── main.html
 ├── css
 │   └── main.css
 ├── ts
+│   ├── about.ts
+│   ├── contact.ts
 │   └── main.ts
-│   └── about.ts
-│   └── contact.ts
+├── for-testing
+│   ├── githubAPI.ts
+│   └── tsconfig.json
 ├── README.md
 ├── fonts
 ├── node_modules
