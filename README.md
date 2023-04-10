@@ -2,6 +2,15 @@
 
 > ### This site has been deployed [here](https://personal-site-gongahkia.vercel.app/).
 
+<h3>Technologies used:</h3>
+
+<p align="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" height="50"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50"/>
+<img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" width="50" height="50"/>
+</p>
+
 ### Project structure
 
 ```console
