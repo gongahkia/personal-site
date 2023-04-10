@@ -1,6 +1,6 @@
 # Personal portfolio site 
 
-> ### This site has been deployed [here](https://personal-site-gongahkia.vercel.app/).
+> ### This site is now live [here](https://personal-site-gongahkia.vercel.app/) *(deployed using Vercel)*.
 
 <h3>Technologies used:</h3>
 
