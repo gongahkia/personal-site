@@ -18,6 +18,8 @@ Built in Typescript, HTML and CSS. Deployed with Vercel.
 * HTML, CSS animation and webpage structuring using flexboxes
 * Typescript communication with Github API, rudimentary data parsing and display
 * Intuitive UI UX web design
+* Proper project structuring
+* Deploying website to Vercel (and relevant restructuring)
 
 ### Project structure
 
