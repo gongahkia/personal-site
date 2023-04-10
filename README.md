@@ -1,6 +1,8 @@
 # Personal portfolio site 
 
-> ### This site is now live [here](https://personal-site-gongahkia.vercel.app/) *(deployed using Vercel)*.
+> ### THIS SITE IS NOW LIVE [HERE](https://personal-site-gongahkia.vercel.app/).
+
+Built in Typescript, HTML and CSS. Deployed with Vercel.
 
 <h3>Technologies used:</h3>
 
@@ -10,6 +12,12 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50"/>
 <img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" width="50" height="50"/>
 </p>
+
+<h3>What I Learned:</h3>
+
+* HTML, CSS animation and webpage structuring using flexboxes
+* Typescript communication with Github API, rudimentary data parsing and display
+* Intuitive UI UX web design
 
 ### Project structure
 
