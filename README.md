@@ -33,6 +33,7 @@ personal-site
 │   ├── githubAPI.ts
 │   └── tsconfig.json
 ├── README.md
+├── assets
 ├── fonts
 ├── node_modules
 ├── package.json
@@ -44,9 +45,6 @@ personal-site
 
 ## To do:
 
-* [ ] ***Contact-me page***:  
-    * [ ] Add transparent background PNG of me that Bethel drew, add eyeballs that track the mouse based on https://youtu.be/TGe3pS5LqEw
-
 * [ ] ***Additional stuff***:  
     * [ ] Add Light/Dark mode option that can be toggled based on https://youtu.be/rXuHGLzSmSE
     * [ ] Overall matcha based colorscheme
@@ -57,7 +55,7 @@ personal-site
     * [ ] Download all image resources from their respective links (required for `about.html` and `contact.html` pages) to a new file directory called `assets/` and change file path of relevant images
 
 * [ ] ***Mobile port***:  
-    * [ ] Add additional responsiveness for mobile devices in sizing 
+    * [ ] Add additional responsiveness for mobile devices in sizing using JMediaQuery
     * [ ] Design an entirely different website experience for mobile devices, unique controls and feel
 
 ## Done:
@@ -77,6 +75,8 @@ personal-site
     * [x] Add actual content referenced from **General structure** above
     * [x] Allow for emailing and telegram and other contact options to pop up in current tab
     * [x] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
+* [x] Contact page
+   * [x] Add transparent background PNG of me that Bethel drew, add eyeballs that track the mouse based on https://youtu.be/TGe3pS5LqEw
 
 ## Notes for self:
 
