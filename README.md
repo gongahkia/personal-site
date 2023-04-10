@@ -46,7 +46,6 @@ personal-site
 
 * [ ] ***About page***:  
     * [ ] Github API
-        * [ ] Complete Github API code to sort and choose 4 repos by most recent updated date
         * [ ] Render most recently updated github repos dynamically by referencing this article (https://stackoverflow.com/questions/12410895/changing-html-data-before-page-rendering), using Github API code in `for-testing/githubAPI.ts`
         * [ ] DIY style a new flexbox div in the about page, to include relevant values (included in the Github repo display [Repo name, Repo desc, Repo language and associated emoji, embedded URL behind each clickable repo box]) => (maybe use dynamic cards display for this??) for latest 4 repos updated 
     * [ ] General styling
@@ -81,6 +80,7 @@ personal-site
 * [x] Implement respective logic for each web page in their respective TS *(compiled to JS)* files.
 * [x] Properly style the general look of the site (fonts, colorscheme, overall code theme in `main.css`.
 * [x] CSS flexboxes
+* [x] Complete Github API code to sort and choose 3 repos by most recent updated date
 
 ## Notes for self:
 
