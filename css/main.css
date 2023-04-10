@@ -115,6 +115,12 @@ a.active {
     justify-content:center; 
 }
 
+.reachMeContainer {
+    display:flex;
+    margin-top:12px;
+    margin-left:255px;
+}
+
 .wordpressContainer {
     display:flex;
     margin-top:20px;
@@ -141,6 +147,21 @@ a.active {
     margin-top:12px;
     margin-right:70px;
     justify-content:center; 
+}
+
+.emailContainer {
+    display:flex;
+    margin-top:20px;
+    margin-right:70px;
+    justify-content:center; 
+}
+
+.telegramContainer {
+    display:flex;
+    margin-top:12px;
+    margin-right:70px;
+    justify-content:center; 
+
 }
 
 .item-aboutHeader {
@@ -233,6 +254,44 @@ a.active {
     animation-fill-mode:none;
 }
 
+.item-emailDesc {
+    display:inline-block;
+    font-size:1.5rem;
+    padding:5px;
+    line-height:55px;
+    height:110px;
+    width:300px;
+    border:solid;
+    text-align:center;
+
+    animation-name:codeBlockOnStartup;
+    animation-timing-function:ease;
+    animation-duration:2.2s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.item-telegramDesc {
+    display:inline-block;
+    font-size:1.5rem;
+    padding:5px;
+    line-height:55px;
+    height:110px;
+    width:300px;
+    border:solid;
+    text-align:center;
+
+    animation-name:codeBlockOnStartup;
+    animation-timing-function:ease;
+    animation-duration:2.5s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
 /* add logic to allow elements to enter while scrolling later */
 .item-wordpressImage {
     display:inline-block;
@@ -318,7 +377,6 @@ a.active {
     animation-fill-mode:none;
 }
 
-/* REMEMBER TO ANIMATE THIS ON SCROLL ONLY! */
 .item-dynamicGithubHeader {
     display:block;
     font-size:1.3rem;
@@ -354,7 +412,63 @@ a.active {
 
     animation-name:codeBlockOnStartup;
     animation-timing-function:ease;
+    animation-duration:1.8s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.item-reachMeHeader{
+    display:block;
+    font-size:1.3rem;
+    padding:5px;
+
+    animation-name:codeBlockOnStartup;
+    animation-timing-function:ease;
     animation-duration:1.5s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.item-emailReachMeImage {
+    display:inline-block;
+    border:solid;
+    width:350px;
+    height:120px;
+    text-align:center;
+
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease-in-out;
+    transition-delay:0s;
+
+    animation-name:imageBlockOnStartup;
+    animation-timing-function:ease;
+    animation-duration:2.2s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.item-telegramReachMeImage {
+    display:inline-block;
+    border:solid;
+    width:350px;
+    height:120px;
+    text-align:center;
+
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease-in-out;
+    transition-delay:0s;
+
+    animation-name:imageBlockOnStartup;
+    animation-timing-function:ease;
+    animation-duration:2.5s;
     animation-delay:0s;
     animation-iteration-count:1;
     animation-direction:normal;
@@ -372,6 +486,10 @@ a.active {
 }
 
 .item-dynamicGithubInfo:hover {
+    transform:translateY(-8px);
+}
+
+.item-emailReachMeImage:hover, .item-telegramReachMeImage:hover {
     transform:translateY(-8px);
 }
 
