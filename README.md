@@ -2,7 +2,7 @@
 
 > ### THIS SITE IS NOW LIVE [HERE](https://gongahkia.github.io/).
 
-Built in Typescript, HTML and CSS. Deployed with Vercel.
+Built in Typescript, HTML and CSS. Deployed with Github static sites.
 
 <h3>Technologies used:</h3>
 
@@ -10,7 +10,7 @@ Built in Typescript, HTML and CSS. Deployed with Vercel.
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" height="50"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50"/>
-<img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" width="50" height="50"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
 </p>
 
 <h3>What I Learned:</h3>
@@ -19,7 +19,7 @@ Built in Typescript, HTML and CSS. Deployed with Vercel.
 * Typescript communication with Github API, rudimentary data parsing and display
 * Intuitive UI UX web design
 * Proper project structuring
-* Deploying website to Vercel (and relevant restructuring)
+* Deploying website to Github (and relevant restructuring) ++ why I pivoted from Vercel to Github 
 
 ### Project structure
 
