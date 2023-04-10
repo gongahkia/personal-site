@@ -39,6 +39,12 @@ personal-site
 
 ---
 
+## Screenshots 
+
+![Screenshot from 2023-04-10 17-10-04](https://user-images.githubusercontent.com/117062305/230871678-e63dc9c7-0298-4f4a-9fd2-00842e377758.png)
+![Screenshot from 2023-04-10 17-10-29](https://user-images.githubusercontent.com/117062305/230871683-ce67441e-61af-4e80-b339-e62d1fe49814.png)
+![Screenshot from 2023-04-10 17-10-41](https://user-images.githubusercontent.com/117062305/230871693-4d7dff24-7ee5-4b02-b3c0-64e85434c3f4.png)
+
 ## To implement in the future:
 
 * [ ] ***Additional stuff***:  
