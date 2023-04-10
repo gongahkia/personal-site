@@ -1,6 +1,6 @@
 # Personal portfolio site 
 
-> ### THIS SITE IS NOW LIVE [HERE](https://personal-site-gongahkia.vercel.app/).
+> ### THIS SITE IS NOW LIVE [HERE](https://gongahkia.github.io/).
 
 Built in Typescript, HTML and CSS. Deployed with Vercel.
 
