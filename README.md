@@ -1,6 +1,6 @@
 # Personal portfolio site 
 
-> ### THIS SITE IS NOW LIVE [HERE](https://gongahkia.github.io/).
+> ### THIS SITE IS NOW LIVE [HERE](https://gongahkia.github.io/index.html).
 
 Built in Typescript, HTML and CSS. Deployed with Github static sites.
 
