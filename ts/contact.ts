@@ -2,7 +2,7 @@ let currentPagefrmContact = (window.location.pathname).split("/").pop();
 console.log(currentPagefrmContact);
 
 switch (currentPagefrmContact) {
-    case "main.html": {
+    case "index.html": {
         document.getElementById("mainLink")!.classList.add("currentFile");
         break;
     }

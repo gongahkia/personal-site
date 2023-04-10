@@ -2,7 +2,7 @@ let currentPagefrmMain = (window.location.pathname).split("/").pop();
 console.log(currentPagefrmMain);
 
 switch (currentPagefrmMain) {
-    case "main.html": {
+    case "index.html": {
         document.getElementById("mainLink")!.classList.add("currentFile");
         break;
     }
