@@ -77,24 +77,14 @@ async function githubAPI(targetUrl:string) {
     console.log(top3DateArray);
     const dynamicGitRepo = document.getElementById("dynamicGithubRepoContainer")!;
     for (let repoInfo of top3DateArray) {
-        if (repoInfo.repoLanguages === null) {
         dynamicGitRepo.innerHTML += `<div class="item-dynamicGithubInfo">
                                         <p>
                                         <a href="${repoInfo.repoUrl}">
-                                            ${repoInfo.repoName}<br>
-                                            ${repoInfo.repoDescription}<br></a>
-                                        </p>
-                                    </div>`;
-        } else {
-        dynamicGitRepo.innerHTML += `<div class="item-dynamicGithubInfo">
-                                        <p>
-                                        <a href="${repoInfo.repoUrl}">${repoInfo.repoName}<br>
-                                            ${repoInfo.repoDescription}<br>
-                                            ${repoInfo.repoLanguages}<br></a>
+                                            <b>${repoInfo.repoName}</b><br>
+                                            <i>${repoInfo.repoDescription}</i><br></a>
                                         </p>
                                     </div>`;
         }
     }
-}
 
 githubAPI("https://api.github.com/users/gongahkia/repos");
