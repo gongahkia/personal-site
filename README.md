@@ -1,28 +1,15 @@
 # Personal portfolio site 
 
-## General structure
-
-Site split into three pages:
-
-* Main 
-    * General information about myself, who i am, interests etc, short write-up and profile picture.
-
-* About
-    * Linkedin, Wordpress, Github, Letterboxd accounts
-    * Link to Github account, past projects and repos that automatically update.
-
-* Reach me 
-    * Linkedin, Wordpress, Github, Letterboxd, email, other socials.
+> ### This site has been deployed [here](https://personal-site-gongahkia.vercel.app/).
 
 ### Project structure
 
 ```console
 personal-site
 │
-├── html
-│   ├── about.html
-│   ├── contact.html
-│   └── main.html
+├── about.html
+├── contact.html
+├── index.html
 ├── css
 │   └── main.css
 ├── ts
@@ -43,19 +30,13 @@ personal-site
 
 ---
 
-## To do:
+## To implement in the future:
 
 * [ ] ***Additional stuff***:  
-    * [ ] Add Light/Dark mode option that can be toggled based on https://youtu.be/rXuHGLzSmSE
-    * [ ] Overall matcha based colorscheme
-    * [ ] Unprivate this repo/ publish the website as mentioned above once everything is completed.
-    * [ ] Publish as official website I link on my Github `gongahkia.md` rendered using https://pages.github.com/.
-    * [ ] Offer Github and Wakatime integrations giving my stats
-    * [ ] Add repo badges to website for about, google how to style accordingly
-    * [ ] Download all image resources from their respective links (required for `about.html` and `contact.html` pages) to a new file directory called `assets/` and change file path of relevant images
+    * [ ] Add Light/Dark mode option that can be toggled.
 
 * [ ] ***Mobile port***:  
-    * [ ] Add additional responsiveness for mobile devices in sizing using JMediaQuery
+    * [ ] Responsiveness for mobile devices in sizing using JMediaQuery
     * [ ] Design an entirely different website experience for mobile devices, unique controls and feel
 
 ## Done:
@@ -77,7 +58,3 @@ personal-site
     * [x] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
 * [x] Contact page
    * [x] Add transparent background PNG of me that Bethel drew, add eyeballs that track the mouse based on https://youtu.be/TGe3pS5LqEw
-
-## Notes for self:
-
-* No license for now, since I don't wanna make the code openly replicatable but want others to see the code.
