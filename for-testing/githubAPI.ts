@@ -6,7 +6,7 @@ async function contactAPI(targetUrl:string) {
 
     // consolidate important information and sort latest github repo by date
     const permDateArray:number[][] = [];
-    const top3DateArray:number[][] = [];
+    const top3DateArray:any[] = [];
     const infoArray:any[] = [];
     interface RepoInfo {
         repoName:string;
@@ -59,6 +59,7 @@ async function contactAPI(targetUrl:string) {
     }
 
     console.log(top3DateArray);
+    console.log(top3DateArray[0].repoName);
 }
 
 contactAPI("https://api.github.com/users/gongahkia/repos");

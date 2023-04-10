@@ -41,18 +41,6 @@ personal-site
 
 ## To do:
 
-* [ ] ***Main page***:
-    * [ ] Add spotify API that updats based on what song I'm currently listening to.
-
-* [ ] ***About page***:  
-    * [ ] Github API
-        * [ ] Render most recently updated github repos dynamically by referencing this article (https://stackoverflow.com/questions/12410895/changing-html-data-before-page-rendering), using Github API code in `for-testing/githubAPI.ts`
-        * [ ] DIY style a new flexbox div in the about page, to include relevant values (included in the Github repo display [Repo name, Repo desc, Repo language and associated emoji, embedded URL behind each clickable repo box]) => (maybe use dynamic cards display for this??) for latest 4 repos updated 
-    * [ ] General styling
-        * [ ] Parallex effect on background when scrolling  
-        * [ ] Have aforementioned projects and articles slide and animate in only when mouse scrolls down based on https://youtu.be/T33NN_pPeNI
-        * [ ] Add CSS animation with keyframes and CSS transitions of the respective clickable buttons.
-
 * [ ] ***Contact-me page***:  
     * [ ] Add actual content referenced from **General structure** above
     * [ ] Allow for emailing and telegram and other contact options to pop up in current tab
@@ -80,7 +68,10 @@ personal-site
 * [x] Implement respective logic for each web page in their respective TS *(compiled to JS)* files.
 * [x] Properly style the general look of the site (fonts, colorscheme, overall code theme in `main.css`.
 * [x] CSS flexboxes
-* [x] Complete Github API code to sort and choose 3 repos by most recent updated date
+* [x] Github API
+    * [x] Complete Github API code to sort and choose 3 repos by most recent updated date
+    * [x] Render most recently updated github repos dynamically by referencing this article (https://stackoverflow.com/questions/12410895/changing-html-data-before-page-rendering), using Github API code in `for-testing/githubAPI.ts`
+    * [x] DIY style a new flexbox div in the about page, to include relevant values (included in the Github repo display [Repo name, Repo desc, Repo language and associated emoji, embedded URL behind each clickable repo box]) => (maybe use dynamic cards display for this??) for latest 4 repos updated 
 
 ## Notes for self:
 

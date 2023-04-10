@@ -22,7 +22,7 @@ async function githubAPI(targetUrl:string) {
 
     // consolidate important information and sort latest github repo by date
     const permDateArray:number[][] = [];
-    const top3DateArray:number[][] = [];
+    const top3DateArray:any[] = [];
     const infoArray:any[] = [];
     interface RepoInfo {
         repoName:string;
@@ -75,6 +75,26 @@ async function githubAPI(targetUrl:string) {
     }
 
     console.log(top3DateArray);
+    const dynamicGitRepo = document.getElementById("dynamicGithubRepoContainer")!;
+    for (let repoInfo of top3DateArray) {
+        if (repoInfo.repoLanguages === null) {
+        dynamicGitRepo.innerHTML += `<div class="item-dynamicGithubInfo">
+                                        <p>
+                                        <a href="${repoInfo.repoUrl}">
+                                            ${repoInfo.repoName}<br>
+                                            ${repoInfo.repoDescription}<br></a>
+                                        </p>
+                                    </div>`;
+        } else {
+        dynamicGitRepo.innerHTML += `<div class="item-dynamicGithubInfo">
+                                        <p>
+                                        <a href="${repoInfo.repoUrl}">${repoInfo.repoName}<br>
+                                            ${repoInfo.repoDescription}<br>
+                                            ${repoInfo.repoLanguages}<br></a>
+                                        </p>
+                                    </div>`;
+        }
+    }
 }
 
 githubAPI("https://api.github.com/users/gongahkia/repos");

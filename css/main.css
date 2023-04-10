@@ -108,6 +108,13 @@ a.active {
     margin-left:255px;
 }
 
+#dynamicGithubRepoContainer {
+    display:flex;
+    margin-top:12px;
+    margin-right:70px;
+    justify-content:center; 
+}
+
 .wordpressContainer {
     display:flex;
     margin-top:20px;
@@ -311,6 +318,49 @@ a.active {
     animation-fill-mode:none;
 }
 
+/* REMEMBER TO ANIMATE THIS ON SCROLL ONLY! */
+.item-dynamicGithubHeader {
+    display:block;
+    font-size:1.3rem;
+    padding:5px;
+    margin-top:80px;
+    margin-left:255px;
+
+    animation-name:codeBlockOnStartup;
+    animation-timing-function:ease;
+    animation-duration:1.5s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.item-dynamicGithubInfo {
+    display:block;
+    font-size:1.15rem;
+    padding:5px;
+    height:110px;
+    width:300px;
+    border:solid;
+    text-align:center;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:200px;
+
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease-in-out;
+    transition-delay:0s;
+
+    animation-name:codeBlockOnStartup;
+    animation-timing-function:ease;
+    animation-duration:1.5s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
 /* Animations && Transitions */
 .item-mainLink:hover, .item-aboutLink:hover, .item-contactLink:hover {
     transform:translateY(-8px);
@@ -318,6 +368,10 @@ a.active {
 }
 
 .item-wordpressImage:hover, .item-githubImage:hover, .item-linkedinImage:hover, .item-letterboxdImage:hover {
+    transform:translateY(-8px);
+}
+
+.item-dynamicGithubInfo:hover {
     transform:translateY(-8px);
 }
 
