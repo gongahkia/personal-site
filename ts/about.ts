@@ -28,9 +28,7 @@ async function githubAPI(targetUrl:string) {
         repoName:string;
         repoUrl:string;
         repoLastCommitPushedDate:string;
-        repoLastCommitPushedTime:string;
         repoDescription:string;
-        repoLanguages:string
     }
 
     for (var repo of data) {
@@ -38,9 +36,7 @@ async function githubAPI(targetUrl:string) {
             repoName: repo.name,
             repoUrl: repo.svn_url,
             repoLastCommitPushedDate: repo.pushed_at.split("T")[0],
-            repoLastCommitPushedTime: repo.pushed_at.split("T")[1].split("Z")[0],
             repoDescription: repo.description,
-            repoLanguages: repo.language
         }
         
         infoArray.push(givenRepo);
@@ -60,7 +56,6 @@ async function githubAPI(targetUrl:string) {
     const currentDate:string = new Date().toLocaleDateString();
     const currentYear:number = +currentDate.split("/")[2];
     const currentMonth:number = +currentDate.split("/")[0];
-    const currentDay:number = +currentDate.split("/")[1];
     //console.log(currentYear, currentMonth, currentDay);
 
     for (let date of permDateArray) {
@@ -71,7 +66,7 @@ async function githubAPI(targetUrl:string) {
     
     // to remove an item from final Array to only display 3 values max
     if (top3DateArray.length > 3) {
-        delete top3DateArray[Math.floor(Math.random() * 3)];
+        top3DateArray.pop();
     }
 
     console.log(top3DateArray);
@@ -81,7 +76,8 @@ async function githubAPI(targetUrl:string) {
                                         <p>
                                         <a href="${repoInfo.repoUrl}">
                                             <b>${repoInfo.repoName}</b><br>
-                                            <i>${repoInfo.repoDescription}</i><br></a>
+                                            <i>${repoInfo.repoDescription}</i><br>
+                                        </a>
                                         </p>
                                     </div>`;
         }
