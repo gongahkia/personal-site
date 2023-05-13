@@ -55,15 +55,6 @@ personal-site
 ![Screenshot from 2023-04-10 17-10-29](https://user-images.githubusercontent.com/117062305/230871683-ce67441e-61af-4e80-b339-e62d1fe49814.png)
 ![Screenshot from 2023-04-10 17-10-41](https://user-images.githubusercontent.com/117062305/230871693-4d7dff24-7ee5-4b02-b3c0-64e85434c3f4.png)
 
-## To implement in the future:
-
-* [ ] ***Additional stuff***:  
-    * [ ] Add Light/Dark mode option that can be toggled.
-
-* [ ] ***Mobile port***:  
-    * [ ] Responsiveness for mobile devices in sizing using JMediaQuery
-    * [ ] Design an entirely different website experience for mobile devices, unique controls and feel
-
 ## Done:
 
 * [x] Handle movement of page to page, better signpost which page I'm currently on once clicked.
